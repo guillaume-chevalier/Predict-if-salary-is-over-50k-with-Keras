@@ -1,12 +1,12 @@
 # Predict if salary is >50k with machine learning
 
-A neural network with a single layer (sigmoid activation) will be used to predict if someone makes more than 50k or less based on training and test data from the UCI Machine Learning Repository. 
+A neural network with a single layer (sigmoid activation) will be used to predict if someone makes more than 50k or less based on training and test data from the UCI Machine Learning Repository.
 
 Percentage right: 85.19746944290891% on 16281 test entries on which we did not trained the neural network.
-Therefore, the error is of 14.802530557091087%. 
+Therefore, the error is of 14.802530557091087%.
 
 
-## Dependencies 
+## Dependencies
 
 - Python 3.0 (Anaconda distribution is preferred),
 - Theano (requires linux),
@@ -16,33 +16,33 @@ Therefore, the error is of 14.802530557091087%.
 
 ## Comparison with other regression methods on the dataset
 
-| #  Algorithm               Error (%)
-| -- ----------------        ---------
-| 1  C4.5                    15.54
-| 2  C4.5-auto               14.46
-| 3  C4.5 rules              14.94
-| 4  Voted ID3 (0.6)         15.64
-| 5  Voted ID3 (0.8)         16.47
-| 6  T2                      16.84
-| 7  1R                      19.54
-| 8  NBTree                  14.10
-| 9  CN2                     16.00
-| 10 HOODG                   14.82
-| 11 FSS Naive Bayes         14.05
-| 12 IDTM (Decision table)   14.46
-| 13 Naive-Bayes             16.12
-| 14 Nearest-neighbor (1)    21.42
-| 15 Nearest-neighbor (3)    20.35
-| 16 OC1                     15.04
-| 17 Pebls                   Crashed.
-| -  My neural network       14.80
+__Algorithm__              | __Error (%)__
+----------------       | ---------
+__My neural network__  | __14.80__
+C4.5                   | 15.54
+C4.5-auto              | 14.46
+C4.5 rules             | 14.94
+Voted ID3 (0.6)        | 15.64
+Voted ID3 (0.8)        | 16.47
+T2                     | 16.84
+1R                     | 19.54
+NBTree                 | 14.10
+CN2                    | 16.00
+HOODG                  | 14.82
+FSS Naive Bayes        | 14.05
+IDTM (Decision table)  | 14.46
+Naive-Bayes            | 16.12
+Nearest-neighbor (1)   | 21.42
+Nearest-neighbor (3)   | 20.35
+OC1                    | 15.04
+Pebls                  | Crashed.
 
 
 ## Data's structure
 
 ### 2 Outputs (classification)
-- >50K, 
-- <=50K.
+- `>50K`,
+- `<=50K`.
 
 ### 14 Inputs (string and continuous)
 - age: continuous.
@@ -63,8 +63,9 @@ Therefore, the error is of 14.802530557091087%.
 _Note: some data contain "?", so this value is possible for each of those 14 input fields_
 
 
-## Dataset infos and reference
+## References
 
-[http://archive.ics.uci.edu/ml/datasets/Adult]
+[Dataset infos](http://archive.ics.uci.edu/ml/datasets/Adult)
+
+Source:
 > Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
-
