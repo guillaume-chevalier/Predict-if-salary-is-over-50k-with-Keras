@@ -1,9 +1,9 @@
 # Predict if salary is >50k with machine learning
 
-A neural network with a single layer (sigmoid activation) will be used to predict if someone makes more than 50k or less based on training and test data from the UCI Machine Learning Repository.
+A neural network with two layers (sigmoid activation) is used to predict if someone makes more than 50k or less based on training and test data from the UCI Machine Learning Repository.
 
-Percentage right: 85.19746944290891% on 16281 test entries on which we did not trained the neural network.
-Therefore, the error is of 14.802530557091087%.
+Percentage right: 85.333% on 16281 test entries on which we did not trained the neural network.
+Therefore, the error is of 14.667%.
 
 
 ## Dependencies
@@ -18,7 +18,7 @@ Therefore, the error is of 14.802530557091087%.
 
 __Algorithm__              | __Error (%)__
 ----------------       | ---------
-__My neural network__  | __14.80__
+__My neural network__  | __14.67__
 C4.5                   | 15.54
 C4.5-auto              | 14.46
 C4.5 rules             | 14.94
@@ -38,11 +38,11 @@ OC1                    | 15.04
 Pebls                  | Crashed.
 
 
-## Data's structure
+## Dataset's structure
 
 ### 2 Outputs (classification)
-- `>50K`,
-- `<=50K`.
+- &gt;50K,
+- &lt;=50K.
 
 ### 14 Inputs (string and continuous)
 - age: continuous.
@@ -61,6 +61,11 @@ Pebls                  | Crashed.
 - native-country: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
 
 _Note: some data contain "?", so this value is possible for each of those 14 input fields_
+
+
+## Presentation's slides
+
+The slides will be available after the seminar.
 
 
 ## References
