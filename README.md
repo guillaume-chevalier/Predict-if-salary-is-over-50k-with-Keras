@@ -65,7 +65,8 @@ _Note: some data contain "?", so this value is possible for each of those 14 inp
 
 ## Presentation's slides
 
-The slides will be available after the seminar.
+The slides of the seminar are available [here](https://docs.google.com/presentation/d/1Ynz-IN8iMyD1Fp1gqUuX5_0SOxSUhS1LFzO_bB9Di68/present?usp=sharing) (in French).
+
 
 
 ## References
