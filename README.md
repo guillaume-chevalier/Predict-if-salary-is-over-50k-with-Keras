@@ -1,4 +1,4 @@
-# Predict if salary is >50k with machine learning
+# Predict if salary is >50k with Keras (machine learning)
 
 A neural network with two layers (sigmoid activation) is used to predict if someone makes more than 50k or less based on training and test data from the UCI Machine Learning Repository.
 
